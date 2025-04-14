@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+  
+    box-sizing: border-box;
+}
+body{
+ height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #00000095;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-image: url(land1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.2);
+    
+}
+input{
+    border-radius: 10px;
+    border: 1px solid #d4b7b7;
+   
+}
+
+h1{
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px #000;
+    color: #fff;
+}
+label{
+  color: white;
+  text-shadow: 1px 1px 2px #000;
+
+}
+#login{
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+   margin-left: 100px;
+}
+#create-account{
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+   margin-left: 30px;
+}
+
+a{
+    color: #0bceff;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
